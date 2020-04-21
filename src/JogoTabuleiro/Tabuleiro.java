@@ -4,12 +4,12 @@ public class Tabuleiro {
 
 	private int linha;
 	private int coluna;
-	private Peca[][] pecas;
+	private Peca[][] peca;
 	
 	public Tabuleiro(int linha, int coluna) {
 		this.linha = linha;
 		this.coluna = coluna;
-		pecas = new Peca[linha][coluna];
+		peca = new Peca[linha][coluna];
 	}
 
 	public int getLinha() {

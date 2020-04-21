@@ -3,15 +3,15 @@ package JogoTabuleiro;
 public class Peca {
 
 	protected Posicao posicao;
-	private Tabuleiro borda;
+	private Tabuleiro tabuleiro;
 
-	public Peca(Tabuleiro borda) {
-		this.borda = borda;
+	public Peca(Tabuleiro tabuleiro) {
+		this.tabuleiro = tabuleiro;
 		posicao=null;
 	}
 
-	protected Tabuleiro getBorda() {
-		return borda;
+	protected Tabuleiro getTabuleiro() {
+		return tabuleiro;
 	}
 
 	
