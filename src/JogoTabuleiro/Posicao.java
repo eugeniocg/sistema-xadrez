@@ -5,7 +5,7 @@ public class Posicao {
 	private int linha;
 	private int coluna;
 	
-	public Posicao(int linha, int coluna) {
+	public Posicao(int linha, int coluna) {     //Construtor da classe Posicao
 		this.linha = linha;
 		this.coluna = coluna;
 	}
@@ -27,7 +27,7 @@ public class Posicao {
 	}
 
 	@Override
-	public String toString() {
+	public String toString() {                   // toString da classe Posicao
 		return "[" + linha + "," + coluna + "]";
 	}
 	

@@ -6,8 +6,8 @@ public class PartidaDeXadrez {
 
 	private Tabuleiro tabuleiro;
 	
-	public PartidaDeXadrez() {
-		tabuleiro=new Tabuleiro(8, 8);
+	public PartidaDeXadrez() {           //Construtor da classe PartidaDeXadrez
+		tabuleiro=new Tabuleiro(8, 8);   //Instanciano tabuleiro com linha e coluna 8
 	}
 	public PecaDoXadrez[][] getPecas(){
 		PecaDoXadrez[][] mat = new PecaDoXadrez[tabuleiro.getLinha()][tabuleiro.getColuna()];

@@ -6,7 +6,7 @@ public class Tabuleiro {
 	private int coluna;
 	private Peca[][] pecas; // Instanciano uma matriz de peças
 
-	public Tabuleiro(int linha, int coluna) {
+	public Tabuleiro(int linha, int coluna) {      //Construtor da classe Tabuleiro
 		this.linha = linha;
 		this.coluna = coluna;
 		pecas = new Peca[linha][coluna]; // Criando objeto pecas
