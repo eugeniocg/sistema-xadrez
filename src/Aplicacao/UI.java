@@ -2,20 +2,20 @@ package Aplicacao;
 
 import Xadrez.PecaDoXadrez;
 
-public class UI {
+public class UI {                     //Classe para Imprimir o Tabuleiro e Pecas
 	
-	public static void printTabuleiro(PecaDoXadrez[][] pecas) {
-		for(int i=0; i<pecas.length;i++){
+	public static void imprimindoTabuleiro(PecaDoXadrez[][] local) { //Imprimindo o Tabuleiro e Pecas
+		for(int i=0; i<local.length;i++){
 			System.out.print(8-i+" ");
-			for(int j=0;j<pecas.length;j++) {
-				printPeca(pecas[i][j]);
+			for(int j=0;j<local.length;j++) {
+				imprimindoPeca(local[i][j]);
 			}
 			System.out.println();
 		}
 		System.out.println("  a b c d e f g h");
 	}
 	
-	public static void printPeca(PecaDoXadrez peca) {
+	public static void imprimindoPeca(PecaDoXadrez peca) {   // Imprimindo a Peca
 		if(peca == null) {
 			System.out.print("-");
 		}
